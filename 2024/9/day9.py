@@ -124,7 +124,7 @@ def arrange_space2(file_blocks):
     return file_blocks 
 
 if __name__ == '__main__':
-    disk_map = read_file('input.txt')
+    disk_map = read_file('example.txt')
     file_blocks  = get_file_blocks(disk_map)
 
     ## Part 1   
